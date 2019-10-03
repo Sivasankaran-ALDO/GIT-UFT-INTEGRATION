@@ -8,7 +8,7 @@ Parent = fso.GetParentFolderName(Path)
 Msgbox Path
 Msgbox Parent
 LoadFunctionLibrary Parent&"\FunctionLibrary.vbs"
-Data = Parent&"\"& TestName
+Data = Parent&"\"& TestName&".xlsx"
 Data = "C:\Users\rkrishnakumar.cg.tcs\Desktop\watch\Watch_Components_2.xlsx"
 'Data = "C:\Raghu\Workspace\UFT\CreateWachComponents.xlsx"
 sSOrgCIS = "CA11,CH11,CN12,DK11,GB11,IE11,US11"
